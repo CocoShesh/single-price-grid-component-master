@@ -1,0 +1,124 @@
+@import url("https://fonts.googleapis.com/css2?family=Karla&display=swap");
+
+body {
+  display: flexbox;
+  justify-content: center;
+  align-items: center;
+  margin: 20%;
+  background: hsl(204, 43%, 93%);
+}
+
+.div-container {
+  display: grid;
+  grid-template-columns: 1fr;
+  grid-template-rows: 1fr;
+  border: 1px solid transparent;
+  padding: 40px;
+  margin-bottom: 0px;
+  border-radius: 10px 10px 0px 0px;
+  background-color: white;
+  width: 89%;
+}
+.first-sentence {
+  font-size: 22px;
+  margin-bottom: 0px;
+}
+.second-sentence {
+  font-size: 22px;
+  margin-top: 0px;
+}
+.first-sentence,
+.second-sentence {
+  color: hsl(218, 22%, 67%);
+}
+.join {
+  color: hsl(218, 22%, 67%);
+  font-family: "Karla", sans-serif;
+  margin-top: 0px;
+}
+
+.second-container {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-template-rows: 1fr;
+}
+.left-container {
+  border: 1px solid transparent;
+  padding: 20px 20px 0px 40px;
+  border-radius: 0px 0px 0px 10px;
+  background-color: hsl(179, 62%, 43%);
+  height: 250px;
+}
+
+.subcription {
+  font-family: "Karla", sans-serif;
+}
+.subcription,
+h1 {
+  font-family: "Karla", sans-serif;
+  margin-bottom: 0px;
+}
+
+.right-container {
+  border: 1px solid transparent;
+  padding: 40px;
+  padding-top: 20px;
+  border-radius: 0px 0px 10px 0px;
+  background-color: hsl(218, 22%, 67%);
+  width: 292px;
+  height: 210px;
+}
+.warranty {
+  color: hsl(71, 73%, 54%);
+  font-size: 20px;
+}
+.right-paragraph {
+  text-align: left;
+}
+ul li {
+  list-style: none;
+  color: lightblue;
+}
+
+ul {
+  padding-left: 0px;
+}
+.btn-signup {
+  width: 300px;
+  height: 50px;
+  font-size: 15px;
+  background-color: hsl(71, 73%, 54%);
+  border-color: transparent;
+  font-family: "Karla", sans-serif;
+  font-weight: 700;
+  color: white;
+  border-radius: 10px;
+}
+li {
+  font-size: 15px;
+  color: white;
+  padding-bottom: 10px;
+}
+
+.right-container h3 {
+  color: white;
+}
+.left-container,
+h3,
+h1,
+p {
+  color: white;
+}
+.access {
+  padding-left: 0px;
+  margin-bottom: 30px;
+  margin-left: 2px;
+  margin-top: 5px;
+  font-size: 20px;
+}
+
+.date {
+  vertical-align: middle;
+  font-size: small;
+  color: lightblue;
+}
