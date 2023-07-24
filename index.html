@@ -4,7 +4,12 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link rel="stylesheet" href="style.css" />
-
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Karla:wght@400;700&display=swap"
+      rel="stylesheet"
+    />
     <link
       rel="icon"
       type="image/png"
@@ -19,6 +24,7 @@
       .attribution {
         font-size: 11px;
         text-align: center;
+        color: black;
       }
       .attribution a {
         color: hsl(228, 45%, 44%);
@@ -26,32 +32,26 @@
     </style>
   </head>
   <body>
-    <div class="div-container">
-      <div>
-        <h1 class="join">Join Our Community</h1>
-        <h3 class="warranty">30-day, hassle-free money back guarantee</h3>
-        <p class="first-sentence">
+    <main>
+      <section class="join">
+        <h2>Join Our Community</h2>
+        <h1 class="warranty">30-day, hassle-free money back guarantee</h1>
+        <p class="sentence">
           Gain access to our full library of tutorials along with expert code
-          reviews.
+          reviews. Perfect for any developers who are serious about honing their
+          skills.
         </p>
-        <p class="second-sentence">
-          Perfect for any developers who are serious about honing their skills.
-        </p>
-      </div>
-    </div>
-    <div class="second-container">
-      <div class="left-container">
-        <h3 class="subcription">Monthly Subscription</h3>
-        <h1>
-          <span style="font-size: larger">&dollar;29</span>
-          <span class="date">per month</span>
-        </h1>
+      </section>
+      <section class="monthly">
+        <h1 class="subcription">Monthly Subscription</h1>
+        <span class="dollar"">&dollar;29</span>
+        <span class="date">per month</span>
 
         <p class="access">Full access for less than &dollar;1 a day</p>
         <button class="btn-signup">Sign Up</button>
-      </div>
-      <div class="right-container">
-        <h3>Why Us</h3>
+      </section>
+      <section class="why-us">
+        <h1>Why Us</h1>
         <ul>
           <li>Tutorials by industry experts</li>
           <li>Peer &amp;expert code review</li>
@@ -60,7 +60,15 @@
           <li>Community forum Flashcard</li>
           <li>decks New videos every week</li>
         </ul>
-      </div>
-    </div>
+      </section>
+    </main>
+    <footer>
+      <p class="attribution">
+        Challenge by
+        <a href="https://www.frontendmentor.io?ref=challenge" target="_blank"
+          >Frontend Mentor</a
+        >. Coded by <a href="#">Nard</a>.
+      </p>
+    </footer>
   </body>
 </html>
